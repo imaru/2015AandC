@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>201403HCS_Imaruoka/Jingh</title>
+
+    <meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+    <meta name="author" content="Toshihide Imaruoka">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/night.css" id="theme">
+    <link rel="stylesheet" href="css/theme/fonts.css" id="theme">
+    
+    For syntax highlighting
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    If the query includes 'print-pdf', use the PDF print sheet
+    <script>
+      document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+    </script>
+    [if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+	<![endif]
+  </head>
+  <body>
+    <div class="reveal">
+      <small><i>映像の3Dらしさに対する感性評価の時間的変化</i></small>
+      <div class="slides">
+	<section >
+	  <p>HCS/2014Mar@山代温泉<strong>瑠璃光</strong></p>
+	  <h2>映像の3Dらしさに対する<br>感性評価の時間的変化</h2>
+	  <hr>
+	  <h3>伊丸岡俊秀・神宮英夫<br>金沢工業大学</h3>
+	</section>
+	<section data-background="#007777">
+	  <section>
+	    <h3>はじめに</h3>
+	    <div>
+	    <iframe class="youtube-player" src="http://www.youtube.com/embed/OiTiKOy59o4?autoplay=1&start=15&?html5=1"  width="560" height="315" frameborder="0" allowfullscreen></iframe>
+	    </div>
+	    <p>うまく作られた3D映像はヒトに何らかの影響を与える</p>
+	  </section>
+	  <section>
+	    <h3>3D映像による影響</h3>
+	    <ul>
+	      <li>映像酔い
+	      <li>疲労
+	      <li><strong>臨場感</strong>
+	      <li><strong>立体感の豊かさ</strong>
+	    </ul>
+	    <div>
+	    <img src="./3dgif.gif">
+	    </div>
+	  </section>
+	  <section>
+	    <h3>映像の感性評価</h3>
+	    <img src="./vas.png" width="200px" align="right">
+	    <ul>
+	      <li>IBQ法:尺度評定・一対比較とインタヴュー
+		<ul>
+		  <li>Hakkinen et al., 2008
+		</ul>
+	      <li>Visual Analog Scale 
+		<ul>
+		  <li>Ijsselsteijn et al., 2001
+		</ul>
+	      <li><strong>3D映像は臨場感を高める</strong>
+	    </ul>
+	  </section>
+	  <section>
+	    <h3>ただし</h3>
+	    <video  class="stretch" data-autoplay src="./Stim2.m4v" autoplay></video>
+	    <ul>
+	      <li>尺度評定やVASは映像視聴後に実施
+	      <li>時間変化のある映像評価には不十分では?
+	    </ul>
+	  </section>
+	  <section>
+	    <h3>Cross-Modality Matching</h3>
+	    <ul>
+	      <li>加藤・難波・桑野 (1996)
+	      <li>ラウドネスを線分長で評価
+	    </ul>
+	    <img src="./namba.png">
+	  </section>
+	  <section>
+	    <h3>この実験では……</h3>
+	    <ol>
+	      <li class="fragment highlight-current-red">映像の感性評価におけるcross-modality matchingの可能性を示す
+	      <li class="fragment highlight-current-red">主観的臨場感に3D映像が与える影響を示す
+	    </ol>
+	  </section>
+	</section>
+	<section data-background="#B35F04">
+	  <section>
+	    <h3>方法</h3>
+	    <ul>
+	      <li>実験参加者: 2D条件/3D条件に8名ずつ
+	      <li>装置: 家庭用58インチ3Dテレビ・3Dメガネ
+	      <li>刺激: メリダとおそろしの森
+	    </ul>
+	    <p>
+	    <table border="0" celspacing="0" cellpadding="1">
+	      <tr bgcolor="3cb371" style="color: #ffffff">
+		<th  width="180px">チャプター</th>
+		<th width="350px">時間</th>
+		<th width="350px">特徴</th>
+	      </tr>
+	      <tr bgcolor="#0101DF">
+		<th width="180px">1</th>
+		<th width="350px">0:04:23-0:09:19</th>
+		<th width="350px">断続的な3D効果</th>
+	      </tr>
+	      <tr bgcolor="#0080FF">
+		<th width="180px">2</th>
+		<th width="350px">0:59:02-1:02:50</th>
+		<th width="350px">驚き,3D効果,動き</th>
+	      </tr>
+	      <tr bgcolor="#0101DF">
+		<th width="180px">3</th>
+		<th width="350px">1:03:29-1:09:59</th>
+		<th width="350px">動きや3D効果少</th>
+	      </tr>
+
+	    </table>
+	    </p>
+	  </section>
+	  <section>
+	    <h3>評定</h3>
+	    <ul>
+	      <li>cross-modality matching
+		<ul>
+		  <li>映像を観て感じた『臨場感』を圧センサを握って評定
+		    <ul>
+		      <li>0-255 x 16センサ
+		      <li>16センサ中の最大値を採用
+		      <li>40Hzで記録
+		    </ul>
+		</ul>
+	    </ul>
+	  </section>
+	  <section>
+	    <h3>手続き</h3>
+	    <ul>
+	      <li>映画中の3チャプターを4人同時に視聴, チャプター順は固定
+	    </ul>
+	    <img src="./procedure.png" width="60%" border="0">
+	  </section>
+	  <section>
+	    <h3>データ解析</h3>
+	    <ul>
+	      <li>時系列データ
+		<ul>
+		  <li>10Hzにダウンサンプリング
+		  <li>実験前に取得した各参加者の最大圧で標準化
+		</ul>
+	      <li>統計解析
+		<ul>
+		  <li>特徴的場面30秒間において5秒ごとの最大値を平均
+		  <li>視聴条件(2D/3D) x シーン(3チャプター x 2シーン)
+		    <ul>
+		      <li>ただし特徴的場面は実験者の恣意的な決定
+		    </ul>
+		</ul>
+	    </ul>
+	  </section>
+	</section>
+	<section data-background="#0B3861">
+	  <section>
+	    <h3>結果: 時系列データ</h3>
+	    <ul>
+	      <li><a href="#/res1">Chapter1</a>
+	      <li><a href="#/res2">Chapter2</a>
+	      <li><a href="#/res3">Chapter3</a>
+	    </ul>
+	  </section>
+	  <section id="res1">
+	    <h3>Chapter 1</h3>
+            <video class="stretch" data-autoplay src="res1.m4v"  autobuffer controls></video>
+	  </section>
+	  <section  id="res2">
+	    <h3>Chapter 2</h3>
+	    <video  class="stretch" data-autoplay src="./res2.m4v" autobuffer controls></video>
+	  </section>
+	  <section id="res3">
+	    <h3>Chapter 3</h3>
+	    <video  class="stretch" data-autoplay src="./res3.m4v" auto　buffer controls></video>
+	  </section>
+	</section>
+	<section  data-background="#0B3861">
+	  <section>
+	    <h3>結果: データまとめ</h3>
+	    <ul>
+	      <li><a href="#/color">参加者別</a>
+	      <li><a href="#/graph">参加者間平均</a>
+	    </ul>
+	  </section>
+	  <section id="color">
+	    <H3>参加者別</h3>
+	    <a href="#/col2"><img src="./2Dcolor.png" width="700px"></a>
+	    <a href="#/col3"><img src="./3Dcolor.png" width="700px"></a>
+	  </section>
+	  <section id="graph">
+	    <H3>参加者間平均</h3>
+	    <a href="#/gr2"><img  src="./2Dgraph.png" width="700px"></a>
+	    <a href="#/gr3"><img src="./3Dgraph.png" width="700px"></a>
+	  </section>
+	  <section>
+	    <h3>統計的解析</h3>
+	    <img src="./summary.png" width="700px">
+	  </section>
+	  <section id="col2">
+	    <H3>参加者別・2D</h3>
+	    <a href="#/color"><img  src="./2Dcolor.png"></a>
+	  </section>
+	  <section id="col3">
+	    <H3>参加者別・3D</h3>
+	    <a href="#/color"><img  src="./3Dcolor.png"></a>
+	  </section>
+	  <section id="gr2">
+	    <H3>参加者間・2D</h3>
+	    <a href="#/graph"><img src="./2Dgraph.png"></a>
+	  </section>
+	  <section id="gr">
+	    <H3>参加者間・3D</h3>
+	    <a href="#/graph"><img src="./3Dgraph.png"></a>
+	  </section>
+
+	</section>
+	<section>
+	  <section>
+	    <h3>結果のまとめ</h3>
+	    <ul>
+	      <li>3D条件でより高い臨場感
+	      <li>3Dの効果はシーンによって異なる
+	    </ul>
+	  </section>
+	  <section>
+	    <h3>考察</h3>
+	    <ul>
+	      <li class="fragment highlight-current-red">圧を用いたcross-modality matchingによる臨場感評価
+		<ul>
+		  <li class="fragment">映像に対応した変化をある程度鋭敏に反映
+		  <li class="fragment">映像条件による違いも検出
+		</ul>
+	      <li class="fragment highlight-current-red">立体視が臨場感に与える効果の時間的変化
+	    </ul>
+	  </section>
+	  <section>
+	    <h3>今後の課題</h3>
+	    <ul>
+	      <li>コンテンツとの相互作用
+	      <li>映像の物理的特性との対応
+		<ul>
+		  <li class="fragment">視差?
+		  <li class="fragment">運動?
+		  <li class="fragment">視差と運動の交互作用項?
+		</ul>
+	      <li>環境との相互作用
+		<ul>
+		  <li class="fragment">HMD
+		  <li class="fragment">大画面スクリーン
+		  <li class="fragment">音響との相互作用
+		</ul>
+
+	    </ul>
+	  </section>
+	  <section>
+	    <h3>謝辞</h3>
+	    <p>本研究は第一著者および第二著者に対する<br>JSPS科研費25280102の助成を受けて行われた
+</p>
+	  </section>
+  
+	</section>
+	
+      </div>
+    </div>
+    
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+    
+    <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+
+
+      controls: false,
+      progress: true,
+      history: false,
+      center: true,
+      overview: true,
+      touch: true,
+      loop: true,
+      hideAddressBar: true,
+      theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+      transition: Reveal.getQueryHash().transition || 'zoom', // default/cube/page/concave/zoom/linear/fade/none
+      backgroundTransition: 'slide',
+      <!-- leap: { -->
+      <!-- naturalSwipe   : true,    // Invert swipe gestures -->
+      <!-- pointerOpacity : 0.5,      // Set pointer opacity to 0.5 -->
+      <!-- pointerColor   : '#d80000' // Red pointer -->
+      <!-- }, -->
+
+      // Optional libraries used to extend on reveal.js
+      dependencies: [
+      { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+      { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      { src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+      { src: 'plugin/leap/leap.js', async: true },
+      // { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+      // { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+      ]
+
+      
+
+
+});
+
+    </script>
+
+  </body>
+</html>
