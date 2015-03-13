@@ -20,7 +20,7 @@
 - [3DC安全ガイドライン](http://www.3dc.gr.jp/jp/scmt_wg_rep/3dc_guideJ_20111031.pdf)
 
 
-## 感性的な影響
+## 感性面への影響
 
  - 奥行き感
  - 臨場感
